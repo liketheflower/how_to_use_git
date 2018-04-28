@@ -6,7 +6,7 @@
 https://github.com/git-lfs/git-lfs
 
 # big file
-
+```shell
 error: failed to push some refs to 'https://github.com/liketheflower/SUNRGBtoolbox.git'
 owners-MacBook-Pro:SUNRGBtoolbox jimmy$ git lfs ls-files
 owners-MacBook-Pro:SUNRGBtoolbox jimmy$ git lfs migrate import --include="*.mat"
@@ -24,4 +24,5 @@ owners-MacBook-Pro:SUNRGBtoolbox jimmy$ git lfs ls-files
 04d094cb35 - Metadata/seg37list.mat
 d12ec803ce - Metadata/seglistall.mat
 owners-MacBook-Pro:SUNRGBtoolbox jimmy$ git push origin master
-Uploading LFS objects:  83% (5/6), 966 MB | 2.3 MB/s     
+Uploading LFS objects:  83% (5/6), 966 MB | 2.3 MB/s    
+```
